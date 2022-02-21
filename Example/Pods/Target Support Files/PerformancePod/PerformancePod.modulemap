@@ -1,0 +1,6 @@
+framework module PerformancePod {
+  umbrella header "PerformancePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

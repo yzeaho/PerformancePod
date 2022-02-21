@@ -1,0 +1,6 @@
+framework module Pods_PerformancePod_Example {
+  umbrella header "Pods-PerformancePod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

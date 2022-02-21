@@ -1,0 +1,25 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - PerformancePod (1.0.0):
+    - FMDB
+
+DEPENDENCIES:
+  - PerformancePod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+
+EXTERNAL SOURCES:
+  PerformancePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  PerformancePod: 4a0f0316ee5b5e494572ff97414fa0680de28b78
+
+PODFILE CHECKSUM: de86799818fd76df0eb1f8040babfa0bf52a6dde
+
+COCOAPODS: 1.11.2
