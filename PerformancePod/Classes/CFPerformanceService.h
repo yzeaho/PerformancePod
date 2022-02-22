@@ -7,8 +7,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)initialize:(BOOL)enable;
 
-+ (void)clear:(void(^)(void))completion;
-
 + (NSString *)start;
 
 + (void)start:(NSString *)key;
@@ -18,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)finish:(NSString *)key tag:(NSString *)tag;
 
 + (void)query:(void(^)(NSArray<CFPerformanceModel *> *modelList))completion;
+
++ (void)clear:(void(^)(void))completion;
 
 @end
 

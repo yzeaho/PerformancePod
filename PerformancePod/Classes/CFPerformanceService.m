@@ -22,26 +22,6 @@ static NSLock *locker;
     }
 }
 
-+ (void)clear:(void(^)(void))completion
-{
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        [db clear];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            completion();
-        });
-    });
-}
-
-+ (void)query:(void(^)(NSArray<CFPerformanceModel *> *modelList))completion
-{
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        NSArray<CFPerformanceModel *> *r = [db query];
-        dispatch_async(dispatch_get_main_queue(), ^{
-            completion(r);
-        });
-    });
-}
-
 + (NSString *)start
 {
     if (!sEnable) {
@@ -104,6 +84,26 @@ static NSLock *locker;
     CFRelease(uuid_ref);
     CFRelease(uuid_string_ref);
     return [uuid lowercaseString];
+}
+
++ (void)clear:(void(^)(void))completion
+{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [db clear];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            completion();
+        });
+    });
+}
+
++ (void)query:(void(^)(NSArray<CFPerformanceModel *> *modelList))completion
+{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSArray<CFPerformanceModel *> *r = [db query];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            completion(r);
+        });
+    });
 }
 
 @end
