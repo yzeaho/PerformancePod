@@ -11,7 +11,9 @@
 #endif
 
 #import "CFPerformanceDB.h"
+#import "CFPerformanceModel.h"
 #import "CFPerformanceService.h"
+#import "CFPerformanceViewController.h"
 
 FOUNDATION_EXPORT double PerformancePodVersionNumber;
 FOUNDATION_EXPORT const unsigned char PerformancePodVersionString[];

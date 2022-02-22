@@ -1,18 +1,19 @@
-//
-//  CFAppDelegate.m
-//  PerformancePod
-//
-//  Created by code-father on 02/21/2022.
-//  Copyright (c) 2022 code-father. All rights reserved.
-//
-
 #import "CFAppDelegate.h"
+#import "CFPerformanceService.h"
+#import "CFPerformanceViewController.h"
+#import "CFViewController.h"
 
 @implementation CFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [CFPerformanceService initialize:YES];
+    NSString *key = [CFPerformanceService start];
+    [NSThread sleepForTimeInterval:1.0];
+    [CFPerformanceService finish:key tag:@"didFinishLaunchingWithOptions13"];
+    UIViewController *rootController = [[UINavigationController alloc] initWithRootViewController:[CFViewController new]];
+    self.window.rootViewController = rootController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

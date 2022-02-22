@@ -1,12 +1,6 @@
-//
-//  CFViewController.m
-//  PerformancePod
-//
-//  Created by code-father on 02/21/2022.
-//  Copyright (c) 2022 code-father. All rights reserved.
-//
-
 #import "CFViewController.h"
+#import "CFPerformanceService.h"
+#import "CFPerformanceViewController.h"
 
 @interface CFViewController ()
 
@@ -17,13 +11,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"CFViewController";
+    self.view.backgroundColor = [UIColor whiteColor];
+    NSString *key = [NSString stringWithFormat:@"%ld", (long)self.hash];
+    [CFPerformanceService start:key];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSString *key = [NSString stringWithFormat:@"%ld", (long)self.hash];
+    [CFPerformanceService finish:key tag:@"CFViewController_APPEAR"];
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    CFPerformanceViewController *c = [CFPerformanceViewController new];
+    [self.navigationController pushViewController:c animated:YES];
 }
 
 @end

@@ -7,74 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07B7953050F6AD8E5E27EFD92FA516A8 /* PerformancePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA23A26B910C2B2EB68573BFC48AF1D2 /* PerformancePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		176F8093A462DA87177AE2DC38C74F3A /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC7FCB163982668F35644CC9927F08C /* FMDB-dummy.m */; };
 		24CA5241C775CE3C9E9DF46D10859EAA /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5089FBB0BEE025338645FE5430ADDCAC /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		287D8623C2B514812EDBD773791527AE /* Pods-PerformancePod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E046E0A5AF0F1304DE43137E0BB6F88 /* Pods-PerformancePod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30D30DE89E4CFF42EB4209A92421CAD8 /* PerformancePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F90438E0B1C96AC81BBDA865E8B74D5 /* PerformancePod-dummy.m */; };
 		324231E64C9B980C709F89E0A4692E37 /* Pods-PerformancePod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 799637D0729F7A6A701DE94668FDEBFF /* Pods-PerformancePod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32B7E25EECD5D8CD154A0F6263A8EB4F /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 4983DC1580F5854B6A051CA7793E6937 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EB06038EA8B2F16AA51FF27905876A7 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F5050F82A26CC1B35685AF74F29FC1 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4585CF5705D4E00C8B158BE074FA1BF6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D7675B55C1BE46C7D3D375F223CE119D /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4E287B6F5E93DA73E73A58A76BAF6A8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4738550FABA20CA64195BF8B05AA0E0F /* CFPerformanceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2733669D6E84893B532E099722D40D71 /* CFPerformanceModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58D385B7DBB612B6A3A06EA670C015F1 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE3034A916DED83058F7EE7876090C7 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		592347591CA3830B05F8CF8DA0F6A3EA /* CFPerformanceService.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AB957E6D40E6C40A47D8EBF349DCBD /* CFPerformanceService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F29492846530A428B1198F7A167EA91 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D7735B8EBC221831E4D2A62D56D34CD4 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		600DFEC1A3DFAE0F5BEA07C69C85DC8B /* CFPerformanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC60704C6FCFE527B7DEB0864FC35FC /* CFPerformanceViewController.m */; };
+		6FEAB4CF8D99BC5FBCAA07EE119413E0 /* CFPerformanceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F6E5B84CE74AE07C1BC69690FB1F16 /* CFPerformanceViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73C10CDFEAC1F11878A7B3AD41B9907C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ABAC87F0D8409475F68A59DD49201C /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		77BFEC0CB11BC106F2C8251E2E5D8578 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4D247B56F3C354FB04D528D1587258 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B25C4A6E2ACAB3AA3E65C29CD9055E0 /* CFPerformanceService.m in Sources */ = {isa = PBXBuildFile; fileRef = D20F68A7D49EBAA2085764F2B5F2F0CF /* CFPerformanceService.m */; };
 		823570EC2221A3682C1F37C127E25733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8246D862087C7890593899AEA5898697 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F518F5CE26E4D5B0AF64A54ADA4187 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FC5684C4684961A4B867842E66D7798 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1624A2329DA3B81C85654CF04AFAE6DE /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9190A04EDBEE9808A1080C80005C1BF8 /* CFPerformanceDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A613851B1B788CBDE8FEECADAAFB7BD /* CFPerformanceDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		950463F01DF1DAC1D4DF7474364CCBEE /* Pods-PerformancePod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6998364AEAF39B5118856D48509327 /* Pods-PerformancePod_Tests-dummy.m */; };
-		97589A1A6DAC66E62C4D08898DF10EE9 /* CFPerformanceService.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCAE1080E8BC773F0B156A76C501BF2 /* CFPerformanceService.m */; };
-		B2F21307439B60900991E1827E5E6FEB /* CFPerformanceDB.h in Headers */ = {isa = PBXBuildFile; fileRef = F81BBCA2C1722A55B9B0BFB21D58DB54 /* CFPerformanceDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D23EDFE5F5E7982014ED3826C7989B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A52DC29723B0A7A3F2B7245567B44598 /* CFPerformanceService.h in Headers */ = {isa = PBXBuildFile; fileRef = FB740761164C9E4C70005CA11469AD9F /* CFPerformanceService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8E9D06DC51EC50FD682E9678F8AE43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C820AF9825DFB37C1C982F8E15D14485 /* Pods-PerformancePod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E2C3609A3D90D768F151BA7CA74F28 /* Pods-PerformancePod_Example-dummy.m */; };
-		C975FAE03B7D1EA3CE9436A91FB4F135 /* PerformancePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91FCD75F62B005BDAFA7D49BF79373A9 /* PerformancePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D22C05C878C7A3930BDED2E2835263 /* PerformancePod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6A44EEBD1A9BCE2D77FE6C5AB9AE84 /* PerformancePod-dummy.m */; };
+		D4DBDA0E95F101BA8DFA72BCAEA1CEE4 /* CFPerformanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D40C4B47FBBCE70A943ABF91E338673B /* CFPerformanceModel.m */; };
+		E76A018AD8D418BD9C8ED4150E513D81 /* CFPerformanceDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 68643A746A9D98F0A87FDA85B96A4ABE /* CFPerformanceDB.m */; };
 		EFBCD5F499464C4A8042EBCFAB4ACC1A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC61B9D64EB918BF07B22972A918E87B /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F1802969D1EC2EE45D82C8A4D8A5FDCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F3959A6F13D70E595F272F07FB8B00BD /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5578B1407CA30A1C962B5BF1C25D303B /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6EDCFE1F653E1EDBFD5AE1B5291A985 /* CFPerformanceDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 75659EF4AFA3D05EBA01B6E5D9399BC4 /* CFPerformanceDB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5BD375184DAE850BC5F3A4A06102AD83 /* PBXContainerItemProxy */ = {
+		1D2473B41A72C39FF55DD59A47F267E2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
 			remoteInfo = FMDB;
 		};
-		6C09292DE0874D313A777C09193A6E51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3621CE5E3A72AE4BED41A2CB8DB00AA7;
-			remoteInfo = "Pods-PerformancePod_Example";
-		};
-		7B071259C23B69D1EB36F3441E66A671 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
-			remoteInfo = FMDB;
-		};
-		96E60DA88A749C199FB85F967226D9EA /* PBXContainerItemProxy */ = {
+		309DC2A71290CFF2462FB45971AF7F05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3D6B88ECF2E1457E178004AB6438B811;
 			remoteInfo = PerformancePod;
 		};
+		448CC9F977BC7C968931137A4D8D474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
+			remoteInfo = FMDB;
+		};
+		C2D5D5B2B6058FE1D95ED402CF5D679C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3621CE5E3A72AE4BED41A2CB8DB00AA7;
+			remoteInfo = "Pods-PerformancePod_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05076CBDAFF78C21693025FF8984BC0F /* PerformancePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PerformancePod-prefix.pch"; sourceTree = "<group>"; };
-		06A5C9C93A3FCABE69489D0B35D09D6D /* PerformancePod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PerformancePod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		01159373BA8DAABB92656635CA14E741 /* PerformancePod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PerformancePod.debug.xcconfig; sourceTree = "<group>"; };
+		03F6E5B84CE74AE07C1BC69690FB1F16 /* CFPerformanceViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CFPerformanceViewController.h; path = PerformancePod/Classes/CFPerformanceViewController.h; sourceTree = "<group>"; };
 		095F564337E0C83B050994DFF65883A1 /* Pods-PerformancePod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PerformancePod_Example.modulemap"; sourceTree = "<group>"; };
-		11AE28DE8CD434018D573EF4410EFDDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		156E36C7292CE3F7FB7429C8BC43974A /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		1624A2329DA3B81C85654CF04AFAE6DE /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		24DF829D96C485DDE65356B059697A72 /* Pods-PerformancePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PerformancePod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2733669D6E84893B532E099722D40D71 /* CFPerformanceModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CFPerformanceModel.h; path = PerformancePod/Classes/CFPerformanceModel.h; sourceTree = "<group>"; };
+		2A613851B1B788CBDE8FEECADAAFB7BD /* CFPerformanceDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CFPerformanceDB.h; path = PerformancePod/Classes/CFPerformanceDB.h; sourceTree = "<group>"; };
 		35955D177ADC1B12F46BEED4A0B11CEB /* Pods-PerformancePod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PerformancePod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		394127949135DC13531720AE0E7C8282 /* Pods-PerformancePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PerformancePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3999DE3513494FB9AE56BF8C56020092 /* Pods-PerformancePod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PerformancePod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -86,31 +91,31 @@
 		5089FBB0BEE025338645FE5430ADDCAC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		54F5050F82A26CC1B35685AF74F29FC1 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		5578B1407CA30A1C962B5BF1C25D303B /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
-		562FBA15A9EA4E082D0DA31C5608A1B2 /* PerformancePod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PerformancePod-Info.plist"; sourceTree = "<group>"; };
-		69AB957E6D40E6C40A47D8EBF349DCBD /* CFPerformanceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CFPerformanceService.h; path = PerformancePod/Classes/CFPerformanceService.h; sourceTree = "<group>"; };
+		5B6A44EEBD1A9BCE2D77FE6C5AB9AE84 /* PerformancePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PerformancePod-dummy.m"; sourceTree = "<group>"; };
+		5CF857665F1BAF5811D4576786DCADBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		68643A746A9D98F0A87FDA85B96A4ABE /* CFPerformanceDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CFPerformanceDB.m; path = PerformancePod/Classes/CFPerformanceDB.m; sourceTree = "<group>"; };
 		69CA611A89DD20F24DD2E9D44836DC1D /* Pods-PerformancePod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PerformancePod_Example"; path = Pods_PerformancePod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ED6045B58AEDC82F7F6D5D48C7299CA /* PerformancePod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PerformancePod.release.xcconfig; sourceTree = "<group>"; };
 		701CF0EB486E4699AF6810BE69CE01E2 /* Pods-PerformancePod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PerformancePod_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		75659EF4AFA3D05EBA01B6E5D9399BC4 /* CFPerformanceDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CFPerformanceDB.m; path = PerformancePod/Classes/CFPerformanceDB.m; sourceTree = "<group>"; };
 		78869BDF8592A18904B9BA598040D2FD /* Pods-PerformancePod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PerformancePod_Tests"; path = Pods_PerformancePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		799637D0729F7A6A701DE94668FDEBFF /* Pods-PerformancePod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PerformancePod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7E046E0A5AF0F1304DE43137E0BB6F88 /* Pods-PerformancePod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PerformancePod_Example-umbrella.h"; sourceTree = "<group>"; };
-		7F90438E0B1C96AC81BBDA865E8B74D5 /* PerformancePod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PerformancePod-dummy.m"; sourceTree = "<group>"; };
-		80D57E9911040FF4C8CBB3AA6B64E419 /* PerformancePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PerformancePod.modulemap; sourceTree = "<group>"; };
-		81FF4F11D9F0F5E0C91CF32502BF9FF3 /* PerformancePod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PerformancePod.debug.xcconfig; sourceTree = "<group>"; };
+		87C777C833B6C5BA2DB6DF98480B9964 /* PerformancePod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PerformancePod.release.xcconfig; sourceTree = "<group>"; };
 		89E2C3609A3D90D768F151BA7CA74F28 /* Pods-PerformancePod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PerformancePod_Example-dummy.m"; sourceTree = "<group>"; };
-		91FCD75F62B005BDAFA7D49BF79373A9 /* PerformancePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PerformancePod-umbrella.h"; sourceTree = "<group>"; };
+		8E8F6EBA4130AE0B720C248BF4C037BB /* PerformancePod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PerformancePod-prefix.pch"; sourceTree = "<group>"; };
 		9213A593489A249968EC9A931510A4A9 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC60704C6FCFE527B7DEB0864FC35FC /* CFPerformanceViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CFPerformanceViewController.m; path = PerformancePod/Classes/CFPerformanceViewController.m; sourceTree = "<group>"; };
+		A21876658899586837D082EDD32221EA /* PerformancePod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PerformancePod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72E9252CA0A4E5AB1D772982E35EB03 /* Pods-PerformancePod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PerformancePod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A9A8D7952897EF928356462720E99C22 /* Pods-PerformancePod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PerformancePod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ACD77DDD9584A2FAE0B19363E4B30A93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B9ABAC87F0D8409475F68A59DD49201C /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
-		CBCAE1080E8BC773F0B156A76C501BF2 /* CFPerformanceService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CFPerformanceService.m; path = PerformancePod/Classes/CFPerformanceService.m; sourceTree = "<group>"; };
+		C9D7ECD0407B89BD92CAE58B855EC374 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CD4D247B56F3C354FB04D528D1587258 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		CE6998364AEAF39B5118856D48509327 /* Pods-PerformancePod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PerformancePod_Tests-dummy.m"; sourceTree = "<group>"; };
+		D20F68A7D49EBAA2085764F2B5F2F0CF /* CFPerformanceService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CFPerformanceService.m; path = PerformancePod/Classes/CFPerformanceService.m; sourceTree = "<group>"; };
+		D40C4B47FBBCE70A943ABF91E338673B /* CFPerformanceModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CFPerformanceModel.m; path = PerformancePod/Classes/CFPerformanceModel.m; sourceTree = "<group>"; };
 		D5B40964C9F1413C1EE0856096C64233 /* Pods-PerformancePod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PerformancePod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D7675B55C1BE46C7D3D375F223CE119D /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		D7735B8EBC221831E4D2A62D56D34CD4 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
@@ -118,9 +123,12 @@
 		D82663A154B87F1AD7E6C9299205F601 /* PerformancePod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PerformancePod; path = PerformancePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F518F5CE26E4D5B0AF64A54ADA4187 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		D92A6E7768697B9DC3F8BEC021185593 /* Pods-PerformancePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PerformancePod_Tests.modulemap"; sourceTree = "<group>"; };
+		D97C76C53E6FCE6A58397D4E0B43877B /* PerformancePod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PerformancePod.modulemap; sourceTree = "<group>"; };
 		DDB84D9A0F15E735FC534A12711BC72D /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		DFC7FCB163982668F35644CC9927F08C /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
-		F81BBCA2C1722A55B9B0BFB21D58DB54 /* CFPerformanceDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CFPerformanceDB.h; path = PerformancePod/Classes/CFPerformanceDB.h; sourceTree = "<group>"; };
+		E49F5BDA965AB8B0D1A75BC1621279E3 /* PerformancePod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PerformancePod-Info.plist"; sourceTree = "<group>"; };
+		EA23A26B910C2B2EB68573BFC48AF1D2 /* PerformancePod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PerformancePod-umbrella.h"; sourceTree = "<group>"; };
+		FB740761164C9E4C70005CA11469AD9F /* CFPerformanceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CFPerformanceService.h; path = PerformancePod/Classes/CFPerformanceService.h; sourceTree = "<group>"; };
 		FC61B9D64EB918BF07B22972A918E87B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		FD36278E2433C2F3A0E6A23B97373671 /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,11 +150,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6F503A8A00C597F79386BFB32C54FC3 /* Frameworks */ = {
+		988CDBA890CACA3791EC4F454B54ADD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E287B6F5E93DA73E73A58A76BAF6A8B /* Foundation.framework in Frameworks */,
+				9D23EDFE5F5E7982014ED3826C7989B6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,29 +189,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		479952450EDDC6DF318CB83D8215CEC9 /* Support Files */ = {
+		1CDCF5FF5110BF63C3FE7B9D7DB194B3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				80D57E9911040FF4C8CBB3AA6B64E419 /* PerformancePod.modulemap */,
-				7F90438E0B1C96AC81BBDA865E8B74D5 /* PerformancePod-dummy.m */,
-				562FBA15A9EA4E082D0DA31C5608A1B2 /* PerformancePod-Info.plist */,
-				05076CBDAFF78C21693025FF8984BC0F /* PerformancePod-prefix.pch */,
-				91FCD75F62B005BDAFA7D49BF79373A9 /* PerformancePod-umbrella.h */,
-				81FF4F11D9F0F5E0C91CF32502BF9FF3 /* PerformancePod.debug.xcconfig */,
-				6ED6045B58AEDC82F7F6D5D48C7299CA /* PerformancePod.release.xcconfig */,
+				D97C76C53E6FCE6A58397D4E0B43877B /* PerformancePod.modulemap */,
+				5B6A44EEBD1A9BCE2D77FE6C5AB9AE84 /* PerformancePod-dummy.m */,
+				E49F5BDA965AB8B0D1A75BC1621279E3 /* PerformancePod-Info.plist */,
+				8E8F6EBA4130AE0B720C248BF4C037BB /* PerformancePod-prefix.pch */,
+				EA23A26B910C2B2EB68573BFC48AF1D2 /* PerformancePod-umbrella.h */,
+				01159373BA8DAABB92656635CA14E741 /* PerformancePod.debug.xcconfig */,
+				87C777C833B6C5BA2DB6DF98480B9964 /* PerformancePod.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PerformancePod";
 			sourceTree = "<group>";
 		};
-		4E4EA1EA0D462D1AFA186A1D1D7F1251 /* Pod */ = {
+		2874F01ECA26262D5F5E09BA944A4212 /* PerformancePod */ = {
 			isa = PBXGroup;
 			children = (
-				ACD77DDD9584A2FAE0B19363E4B30A93 /* LICENSE */,
-				06A5C9C93A3FCABE69489D0B35D09D6D /* PerformancePod.podspec */,
-				11AE28DE8CD434018D573EF4410EFDDB /* README.md */,
+				2A613851B1B788CBDE8FEECADAAFB7BD /* CFPerformanceDB.h */,
+				68643A746A9D98F0A87FDA85B96A4ABE /* CFPerformanceDB.m */,
+				2733669D6E84893B532E099722D40D71 /* CFPerformanceModel.h */,
+				D40C4B47FBBCE70A943ABF91E338673B /* CFPerformanceModel.m */,
+				FB740761164C9E4C70005CA11469AD9F /* CFPerformanceService.h */,
+				D20F68A7D49EBAA2085764F2B5F2F0CF /* CFPerformanceService.m */,
+				03F6E5B84CE74AE07C1BC69690FB1F16 /* CFPerformanceViewController.h */,
+				9DC60704C6FCFE527B7DEB0864FC35FC /* CFPerformanceViewController.m */,
+				80C7048C84139C31B39366A13C5AE85D /* Pod */,
+				1CDCF5FF5110BF63C3FE7B9D7DB194B3 /* Support Files */,
 			);
-			name = Pod;
+			name = PerformancePod;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -214,26 +230,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		63C6F7AE68A5CC07D01ACAAA3128BC15 /* PerformancePod */ = {
-			isa = PBXGroup;
-			children = (
-				F81BBCA2C1722A55B9B0BFB21D58DB54 /* CFPerformanceDB.h */,
-				75659EF4AFA3D05EBA01B6E5D9399BC4 /* CFPerformanceDB.m */,
-				69AB957E6D40E6C40A47D8EBF349DCBD /* CFPerformanceService.h */,
-				CBCAE1080E8BC773F0B156A76C501BF2 /* CFPerformanceService.m */,
-				4E4EA1EA0D462D1AFA186A1D1D7F1251 /* Pod */,
-				479952450EDDC6DF318CB83D8215CEC9 /* Support Files */,
-			);
-			name = PerformancePod;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		68DB21AE5492FC581291330CF6E902BA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				CE722919203F5B19F3131936952CB279 /* FMDB */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		80C7048C84139C31B39366A13C5AE85D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C9D7ECD0407B89BD92CAE58B855EC374 /* LICENSE */,
+				A21876658899586837D082EDD32221EA /* PerformancePod.podspec */,
+				5CF857665F1BAF5811D4576786DCADBC /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		89AC93FE70DC0FD3A9C80A13EC4C368D /* Pods-PerformancePod_Example */ = {
@@ -251,14 +263,6 @@
 			);
 			name = "Pods-PerformancePod_Example";
 			path = "Target Support Files/Pods-PerformancePod_Example";
-			sourceTree = "<group>";
-		};
-		B155A76CAEB045E2D333BFCA60183628 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				63C6F7AE68A5CC07D01ACAAA3128BC15 /* PerformancePod */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C38E43CAC46D8E3321714F4C03010F12 /* standard */ = {
@@ -293,12 +297,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B155A76CAEB045E2D333BFCA60183628 /* Development Pods */,
+				CF63C167FEC11C3C770498ADF2B02496 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				68DB21AE5492FC581291330CF6E902BA /* Pods */,
 				1362765738BC234F8641479F1BC37956 /* Products */,
 				1CA648117D6B72BA175C7E4B496F6A32 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		CF63C167FEC11C3C770498ADF2B02496 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2874F01ECA26262D5F5E09BA944A4212 /* PerformancePod */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -343,6 +355,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		16C698F24CEFEC2047E778724479FCC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9190A04EDBEE9808A1080C80005C1BF8 /* CFPerformanceDB.h in Headers */,
+				4738550FABA20CA64195BF8B05AA0E0F /* CFPerformanceModel.h in Headers */,
+				A52DC29723B0A7A3F2B7245567B44598 /* CFPerformanceService.h in Headers */,
+				6FEAB4CF8D99BC5FBCAA07EE119413E0 /* CFPerformanceViewController.h in Headers */,
+				07B7953050F6AD8E5E27EFD92FA516A8 /* PerformancePod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1D8E4317C43E801B146629D24251A1E5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -373,16 +397,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEB10CD5A856845F9A547073A5ED8E35 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2F21307439B60900991E1827E5E6FEB /* CFPerformanceDB.h in Headers */,
-				592347591CA3830B05F8CF8DA0F6A3EA /* CFPerformanceService.h in Headers */,
-				C975FAE03B7D1EA3CE9436A91FB4F135 /* PerformancePod-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -398,8 +412,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				6DB897B0BB14A223179500E3C085B4C8 /* PBXTargetDependency */,
-				390F2C5D65956329BC60B5E7C973951A /* PBXTargetDependency */,
+				2B61BE223DBA00D63B6E58779E64DC0A /* PBXTargetDependency */,
+				281DCBC65219744727F733934F29A93D /* PBXTargetDependency */,
 			);
 			name = "Pods-PerformancePod_Example";
 			productName = Pods_PerformancePod_Example;
@@ -408,17 +422,17 @@
 		};
 		3D6B88ECF2E1457E178004AB6438B811 /* PerformancePod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24763943FCD53481F5B29C2C7E1950BE /* Build configuration list for PBXNativeTarget "PerformancePod" */;
+			buildConfigurationList = 6B85AC34B49261D965F9EA3F8854D479 /* Build configuration list for PBXNativeTarget "PerformancePod" */;
 			buildPhases = (
-				CEB10CD5A856845F9A547073A5ED8E35 /* Headers */,
-				2D30B14CCCA588555643A4A6AEFA8143 /* Sources */,
-				A6F503A8A00C597F79386BFB32C54FC3 /* Frameworks */,
-				8DA714C9406BD170031A5262B8CE09EF /* Resources */,
+				16C698F24CEFEC2047E778724479FCC3 /* Headers */,
+				E117118B7799D2E875D882818160F15D /* Sources */,
+				988CDBA890CACA3791EC4F454B54ADD5 /* Frameworks */,
+				07C19B9FAA11E1C528E7A87E8ACD991F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E4D3CECD35C7C69D50370BD88C7A2EE4 /* PBXTargetDependency */,
+				457B46EEC882A7F43F731F35364DBD48 /* PBXTargetDependency */,
 			);
 			name = PerformancePod;
 			productName = PerformancePod;
@@ -437,7 +451,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1A9626157CF6E9776958C19DF9AC43F0 /* PBXTargetDependency */,
+				FB1D2B2B3D70C07B651FB17646FA2836 /* PBXTargetDependency */,
 			);
 			name = "Pods-PerformancePod_Tests";
 			productName = Pods_PerformancePod_Tests;
@@ -493,14 +507,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		391A0FAA8EEAFC4A6C713A0DC407ABB7 /* Resources */ = {
+		07C19B9FAA11E1C528E7A87E8ACD991F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8DA714C9406BD170031A5262B8CE09EF /* Resources */ = {
+		391A0FAA8EEAFC4A6C713A0DC407ABB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,16 +554,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D30B14CCCA588555643A4A6AEFA8143 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6EDCFE1F653E1EDBFD5AE1B5291A985 /* CFPerformanceDB.m in Sources */,
-				97589A1A6DAC66E62C4D08898DF10EE9 /* CFPerformanceService.m in Sources */,
-				30D30DE89E4CFF42EB4209A92421CAD8 /* PerformancePod-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A16EBB77E9792704EF119C3C0F5FF30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -563,32 +567,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E117118B7799D2E875D882818160F15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76A018AD8D418BD9C8ED4150E513D81 /* CFPerformanceDB.m in Sources */,
+				D4DBDA0E95F101BA8DFA72BCAEA1CEE4 /* CFPerformanceModel.m in Sources */,
+				7B25C4A6E2ACAB3AA3E65C29CD9055E0 /* CFPerformanceService.m in Sources */,
+				600DFEC1A3DFAE0F5BEA07C69C85DC8B /* CFPerformanceViewController.m in Sources */,
+				D2D22C05C878C7A3930BDED2E2835263 /* PerformancePod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A9626157CF6E9776958C19DF9AC43F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PerformancePod_Example";
-			target = 3621CE5E3A72AE4BED41A2CB8DB00AA7 /* Pods-PerformancePod_Example */;
-			targetProxy = 6C09292DE0874D313A777C09193A6E51 /* PBXContainerItemProxy */;
-		};
-		390F2C5D65956329BC60B5E7C973951A /* PBXTargetDependency */ = {
+		281DCBC65219744727F733934F29A93D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PerformancePod;
 			target = 3D6B88ECF2E1457E178004AB6438B811 /* PerformancePod */;
-			targetProxy = 96E60DA88A749C199FB85F967226D9EA /* PBXContainerItemProxy */;
+			targetProxy = 309DC2A71290CFF2462FB45971AF7F05 /* PBXContainerItemProxy */;
 		};
-		6DB897B0BB14A223179500E3C085B4C8 /* PBXTargetDependency */ = {
+		2B61BE223DBA00D63B6E58779E64DC0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 7B071259C23B69D1EB36F3441E66A671 /* PBXContainerItemProxy */;
+			targetProxy = 1D2473B41A72C39FF55DD59A47F267E2 /* PBXContainerItemProxy */;
 		};
-		E4D3CECD35C7C69D50370BD88C7A2EE4 /* PBXTargetDependency */ = {
+		457B46EEC882A7F43F731F35364DBD48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FMDB;
 			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 5BD375184DAE850BC5F3A4A06102AD83 /* PBXContainerItemProxy */;
+			targetProxy = 448CC9F977BC7C968931137A4D8D474C /* PBXContainerItemProxy */;
+		};
+		FB1D2B2B3D70C07B651FB17646FA2836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PerformancePod_Example";
+			target = 3621CE5E3A72AE4BED41A2CB8DB00AA7 /* Pods-PerformancePod_Example */;
+			targetProxy = C2D5D5B2B6058FE1D95ED402CF5D679C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -721,67 +737,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		65917AB7F95314C5FF4D4CC841237E74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ED6045B58AEDC82F7F6D5D48C7299CA /* PerformancePod.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PerformancePod/PerformancePod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PerformancePod/PerformancePod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PerformancePod/PerformancePod.modulemap";
-				PRODUCT_MODULE_NAME = PerformancePod;
-				PRODUCT_NAME = PerformancePod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		69DC1A35712B4BE893BDE68E345A4514 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81FF4F11D9F0F5E0C91CF32502BF9FF3 /* PerformancePod.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PerformancePod/PerformancePod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PerformancePod/PerformancePod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PerformancePod/PerformancePod.modulemap";
-				PRODUCT_MODULE_NAME = PerformancePod;
-				PRODUCT_NAME = PerformancePod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -973,6 +928,67 @@
 			};
 			name = Release;
 		};
+		ECB166048E954964FA1A9E6F38774694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C777C833B6C5BA2DB6DF98480B9964 /* PerformancePod.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PerformancePod/PerformancePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PerformancePod/PerformancePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PerformancePod/PerformancePod.modulemap";
+				PRODUCT_MODULE_NAME = PerformancePod;
+				PRODUCT_NAME = PerformancePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCE7F13E18254A645F65D77D356D3E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01159373BA8DAABB92656635CA14E741 /* PerformancePod.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PerformancePod/PerformancePod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PerformancePod/PerformancePod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PerformancePod/PerformancePod.modulemap";
+				PRODUCT_MODULE_NAME = PerformancePod;
+				PRODUCT_NAME = PerformancePod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -981,15 +997,6 @@
 			buildConfigurations = (
 				00467E8C75BB2C560209E72251B70AE2 /* Debug */,
 				C072512FD7339905B375E4144EE96019 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		24763943FCD53481F5B29C2C7E1950BE /* Build configuration list for PBXNativeTarget "PerformancePod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69DC1A35712B4BE893BDE68E345A4514 /* Debug */,
-				65917AB7F95314C5FF4D4CC841237E74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1008,6 +1015,15 @@
 			buildConfigurations = (
 				8CC1C3DEBCFFCB9CD15A2E14E531F6EC /* Debug */,
 				B9618F02923769D910103AFCA0F17675 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B85AC34B49261D965F9EA3F8854D479 /* Build configuration list for PBXNativeTarget "PerformancePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE7F13E18254A645F65D77D356D3E18 /* Debug */,
+				ECB166048E954964FA1A9E6F38774694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
